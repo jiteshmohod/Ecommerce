@@ -25,6 +25,8 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(prop.getProperty("url"));
 		System.out.println("Dummy comment");
+		System.out.println("Dummy comment");
+		
 	}
 	
 	@AfterTest
